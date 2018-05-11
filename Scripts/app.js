@@ -1,0 +1,12 @@
+/* Custom JS goes here */
+
+//IIFE - Immediately Invoked Function Expression
+//anonymously self executing function
+(function(){
+
+    function Start() {
+        console.log("App Started!");
+        console.log("Hello, World!");
+     }
+    window.onload = Start;
+})();
